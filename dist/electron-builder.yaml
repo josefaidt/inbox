@@ -1,0 +1,10 @@
+directories:
+  output: dist
+  buildResources: build
+appId: josef
+mac:
+  category: inbox
+files:
+  - '**/*'
+  - build/icon.*
+electronVersion: 1.8.3

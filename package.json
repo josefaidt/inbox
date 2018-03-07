@@ -1,0 +1,29 @@
+{
+  "name": "inbox",
+  "version": "0.0.1",
+  "description": "Electron wrapper for Google Inbox",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "josef",
+    "mac": {
+      "category": "inbox"
+    },
+    "files": [
+      "**/*",
+      "build/icon.*"
+    ]
+  },
+  "author": "josef",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.8.3",
+    "electron-builder": "^20.3.1"
+  }
+}
